@@ -1,0 +1,25 @@
+# conda env create --file neuralangelo.yaml
+name: neuralangelo_test
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  # general
+  - gpustat
+  - gdown
+  - cmake
+  # python general
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - ipython
+  - jupyterlab
+  - cython
+  - ninja
+  - diskcache
+  # pytorch
+  - pytorch
+  - torchvision
+  - pip:
+    - -r requirements.txt
