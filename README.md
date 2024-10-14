@@ -21,7 +21,7 @@ export PATH="~/miniconda3/bin/:$PATH"
 ```
 3. then run command:  
 ```
-source ~/,bashrc
+source ~/.bashrc
 ```
 
 ### Neuralangelo dependencies
