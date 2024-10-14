@@ -1,4 +1,3 @@
-cd ./neuralangelo/
 # Name of video
 VID=$1
 
@@ -68,7 +67,8 @@ wait $EXT_PID
 
 # Postprocess the mesh
 MESH_PATH=logs/${GROUP}/${NAME}/mesh_${EXPERIMENT}.ply
-nohup python3 processor.py --path ${MESH_PATH} & 
+# nohup python3 processor.py --path ${MESH_PATH} & 
+nohup python3 postprocessing.py --path ${MESH_PATH} & 
 POST_PID=$! # post-processing PID
 
 # wait for post-processing to run completely

@@ -1,5 +1,6 @@
-neuralangelo/
-neuralangelo_*
+neuralangelo*
 *.log
 *.out
 *.mp4
+*.ply
+test.sh
