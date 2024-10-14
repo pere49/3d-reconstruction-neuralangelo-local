@@ -106,10 +106,12 @@ This is mostly related to breaking changes in newer releases of python packages,
 |16GB | dict_size=21, dim=8 |
 
 ## Citations
-> @inproceedings{li2023neuralangelo,  
-&nbsp; title={Neuralangelo: High-Fidelity Neural Surface Reconstruction},  
-&nbsp; author={Li, Zhaoshuo and M\"uller, Thomas and Evans, Alex and Taylor, Russell H and Unberath,   
-&nbsp; Mathias and Liu, Ming-Yu and Lin, Chen-Hsuan},  
-&nbsp; booktitle={IEEE Conference on Computer Vision and Pattern Recognition ({CVPR})},  
-&nbsp; year={2023}  
+```
+@inproceedings{li2023neuralangelo,  
+    title={Neuralangelo: High-Fidelity Neural Surface Reconstruction},  
+    author={Li, Zhaoshuo and M\"uller, Thomas and Evans, Alex and Taylor, Russell H and Unberath,   
+    Mathias and Liu, Ming-Yu and Lin, Chen-Hsuan},  
+    booktitle={IEEE Conference on Computer Vision and Pattern Recognition ({CVPR})},  
+    year={2023}  
 }
+```
