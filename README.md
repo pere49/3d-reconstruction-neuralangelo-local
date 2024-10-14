@@ -98,8 +98,9 @@ This is mostly related to breaking changes in newer releases of python packages,
 **Solution**: Version locking, in the requirements file lock pymcubes and wandb to: PyMCubes<=0.1.4, wandb<=0.17.5
 
 3. Reconstruction fails just before training, size issue or out of memory, modify the hashgrid encoding based on gpu size, the file can be found at [projects/neuralangelo/configs/base.yaml]()  
-| GPU | VRAM Hyperparameter |
-| ------ | ------------------- |
-| 8GB |   dict_size=20, dim=4 |
-| 12GB | dict_size=21, dim=4 |
-| 16GB | dict_size=21, dim=8 |
+
+|GPU | VRAM Hyperparameter |
+|--- | --- |
+|8GB | dict_size=20, dim=4 |
+|12GB | dict_size=21, dim=4 |
+|16GB | dict_size=21, dim=8 |
