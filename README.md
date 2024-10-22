@@ -2,8 +2,11 @@
 
 ## Installation
 
-This guide is for installation and running of neuralangelo and colmap to a local pc using Anaconda/miniconda
-For Installation and running on Docker, check out the [docker guide](https://github.com/pere49/Prosthetic-Neuralangelo-Mesh.git)
+This guide is for installation and running of neuralangelo and colmap to a local pc using Anaconda/miniconda.
+
+> [!Tip]  
+> For Installation and running on Docker, check out the [docker guide](https://github.com/pere49/Prosthetic-Neuralangelo-Mesh.git)
+
 ### Miniconda/Anaconda
 Ensure conda is installed. If not install from the main [conda docs](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)  
 After installation, check if conda is in path:
@@ -23,6 +26,13 @@ export PATH="~/miniconda3/bin/:$PATH"
 ```
 source ~/.bashrc
 ```
+### Colmap local installation
+To install colmap locally, run command in terminal:
+```
+source install_colmap.sh
+```
+
+for further instruction, [colmap installation page](https://colmap.github.io/install.html#linux)
 
 ### Neuralangelo dependencies
 Prequisites
@@ -76,16 +86,6 @@ In the current installation the script is named reconstruct
 ```
 bash reconstruct video.mp4
 ````
-
-
-## Appendix
-### Colmap local installation
-To install colmap locally, run command in terminal:
-```
-source install_colmap.sh
-```
-
-for further instruction, [colmap installation page](https://colmap.github.io/install.html#linux)
 
 ## Troubleshooting
 1. Error: Dubious ownership in repository, add the following line after **docker cp ${NEURAL}:/workspace/neuralangelo**
